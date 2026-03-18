@@ -73,7 +73,7 @@ MedTalks/
 │   ├── noussaiba_mdaghri/        # External APIs Module
 │   │   └── orchestrateur.py      # PubMed, Wikipedia, ApiMedic
 │   │
-│   └── aya_sindel/                # LLM Module (what i worked on)
+│   └── aya_sindel/                # LLM Module
 │       ├── handler.py             # LLM orchestration
 │       ├── planning.py             # Prompt construction
 │       ├── llm.py                  # BLOOM interface
