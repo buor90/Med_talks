@@ -1,4 +1,4 @@
-# === AYA NAIM: Data, Memory, Exploration ===
+# ===  Data, Memory, Exploration ===
 numpy
 pandas
 sentence-transformers
