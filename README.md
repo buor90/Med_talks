@@ -59,7 +59,7 @@ Planning → Tools/APIs → LLM Generation → Memory → Formatting → Answer
 MedTalks/
 ├── handler.py                    # Main orchestrator (decision-making)
 ├── agents/                       # External agents
-│   ├── aya_naim/                 # Internal dataset + Memory Module
+│   ├── memory/                 # Internal dataset + Memory Module
 │   │   ├── orchestrator.py       # Dataset lookup
 │   │   └── memory/                # Persistent storage
 │   │       ├── question_db/
@@ -67,13 +67,13 @@ MedTalks/
 │   │       ├── api_cache/
 │   │       └── generated_answers/
 │   │
-│   ├── elaazaouzi_fadwa/         # Classification Module
-│   │   └── orchestrateur.py      # Zero-shot classification
+│   ├── planning/        
+│   │   └── orchestrateur.py      
 │   │
-│   ├── noussaiba_mdaghri/        # External APIs Module
+│   ├── tools/        # External APIs Module
 │   │   └── orchestrateur.py      # PubMed, Wikipedia, ApiMedic
 │   │
-│   └── aya_sindel/                # LLM Module
+│   └── module/                # LLM Module
 │       ├── handler.py             # LLM orchestration
 │       ├── planning.py             # Prompt construction
 │       ├── llm.py                  # BLOOM interface
